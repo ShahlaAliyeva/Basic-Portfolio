@@ -1,18 +1,151 @@
-#header {
+* {
     box-sizing: border-box;
-    padding: 1em 1.5em;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    background-color: #ffffff;
-    color: #777777;
-    border-bottom: 2px solid #cccccc;
-}
-ul li {
-    display: inline;
-    float: right;
-    padding: 2em 1em;
 }
 
-#logo{
-    float: left;
+body{
+    background-image: url(/assets/images/concrete_seamless.png);
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.8em;
+    font-size: 1.3em;
+}
+
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    margin: 1em 1em;
+}
+
+#header {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #ffffff;
+    width: 100%;
+    border-bottom: .2em solid #cccccc;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.nav li {
+    display: inline;
+}
+
+nav a {
+    color: #777;
+    padding-left: 2em;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+}
+
+.logo {
     background-color: #4aaaa5;
+    padding: 2em 3em;
+}
+
+.logo a {
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+    width: 100%;
+}
+
+#main {
+    width: 45%;
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    background-color: #fff;
+    padding: auto 2em;
+    margin: 2em 4.6em 2em 12.8em;
+    border-radius: .3em;
+}
+
+#main> h2 {
+    width: 100%;
+    font-size: 1.7em;
+    font-weight: bold;
+    padding-bottom: .6em;
+    border-bottom: .1em solid #ccc;
+}
+
+#connect {
+    width: 20%;
+    margin: 2em auto auto 2em;
+    background-color: #ffffff;
+    align-self: flex-start;
+    text-align: center;
+    border-radius: .3em;
+}
+
+#connect img {
+    width: 30%;
+    padding: 1.3em 1em;
+}
+
+#connect> h2{
+    font-size: 1.7em;
+    font-weight: bold;
+    padding-bottom: .6em;
+    border-bottom: .1em solid #ccc;
+}
+
+#footer {
+
+    box-sizing: border-box;
+    padding: 1.5em 0;
+    background-color: #777777;
+    width: 100%;
+    clear: both;
+    text-align: center;
+    border-top: .4em solid #4aaaa5;
+    color: #ffffff;
+}
+
+#footer> a {
+    color: #ffffff;
+}
+
+/*Prtfolio*/
+
+.project-container {
+    width: 40%;
+    justify-content: flex-start;
+    position: relative;
+    margin: 1.2em auto;
+}
+
+.project-container img {
+    width: 100%;
+}
+
+.project-container .project-name {
+    background-color: #4aaaa5;
+    padding: 1em 0;
+    text-align: center;
+    font-size: 1.1em;
+    position: absolute;
+    color: #fff;
+    left: 0;
+    width: 100%;
+    bottom: .8em;
 }
