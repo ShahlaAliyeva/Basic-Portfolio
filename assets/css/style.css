@@ -12,8 +12,8 @@ a {
 }
 
 p {
-    line-height: 1.8em;
-    font-size: 1.3em;
+    line-height: 1.4em;
+    font-size: 1.2em;
 }
 
 h2 {
@@ -88,6 +88,21 @@ nav a {
     border-bottom: .1em solid #ccc;
 }
 
+.about-container { /*burada qalmisam*/
+    width: 90%;
+    margin: 1.2em auto;
+    justify-content: space-around; 
+}
+
+.about p, .about img {
+    display: inline;
+    width: 40%;
+}
+
+.about p {
+    margin-left: 1em;
+}
+
 #connect {
     width: 20%;
     margin: 2em auto auto 2em;
@@ -110,7 +125,6 @@ nav a {
 }
 
 #footer {
-
     box-sizing: border-box;
     padding: 1.5em 0;
     background-color: #777777;
