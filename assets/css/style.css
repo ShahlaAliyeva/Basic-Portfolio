@@ -19,7 +19,7 @@ p {
 h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaa5;
-    margin: 1em 1em;
+    margin: 1em 1em .5em 1em;
 }
 
 #header {
@@ -84,7 +84,7 @@ nav a {
     width: 100%;
     font-size: 1.7em;
     font-weight: bold;
-    padding-bottom: .6em;
+    padding-bottom: .8em;
     border-bottom: .1em solid #ccc;
 }
 
@@ -162,4 +162,43 @@ nav a {
     left: 0;
     width: 100%;
     bottom: .8em;
+}
+
+/*Contact*/
+
+form {
+    width: 100%;
+    color: #777;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.form-container { 
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+form label {
+    display: flex;
+    margin-top: 1.1em;
+    margin-bottom: .5em;
+}
+
+form input, textarea {
+    width: 100%;
+    height: 3.5em;
+    border: 1px solid #ccc;
+}
+
+form textarea {
+    height: 20em;
+}
+
+button {
+    margin-top: 1em;
+    color: #fff;
+    background-color: #4aaaa5;
+    padding: .8em 2em;
+    border: none;
 }
