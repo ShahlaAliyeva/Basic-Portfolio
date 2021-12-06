@@ -153,6 +153,7 @@ nav ul li::after{
 
 .project-container {
     width: 40%;
+    display: flex;
     justify-content: flex-start;
     position: relative;
     margin: 1.2em auto;
