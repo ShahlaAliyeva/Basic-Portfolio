@@ -74,7 +74,7 @@ nav ul li::after{
     width: 100%;
 }
 
-#main {
+#main, #main-portfolio{
     width: 45%;
     position: relative;
     justify-content: flex-start;
@@ -86,14 +86,15 @@ nav ul li::after{
     border-radius: .3em;
 }
 
-#main> h2 {
+#main> h2, #main-portfolio> h2 {
+    width: 90%;
     font-size: 1.7em;
     font-weight: bold;
     padding-bottom: .8em;
     border-bottom: .1em solid #ccc;
 }
 
-.about-container { /*burada qalmisam*/
+.about-container { 
     width: 90%;
     margin: 1.2em auto;
     justify-content: space-around; 
@@ -151,9 +152,12 @@ nav ul li::after{
 
 /*Prtfolio*/
 
+#main-portfolio {
+    display: flex;
+}
+
 .project-container {
     width: 40%;
-    display: flex;
     justify-content: flex-start;
     position: relative;
     margin: 1.2em auto;
